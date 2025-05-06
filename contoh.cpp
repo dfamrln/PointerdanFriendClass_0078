@@ -25,30 +25,6 @@ class PersegiPanjang
 
 };
 
-class Lingkaran
-{
-    public:
-        int jarijari;
-
-        void input()
-        {
-            cout << "Masukkan Jari-jari : ";
-            cin >> jarijari;
-        }
-
-        int LuasLingkaran(int r)
-        {
-            return 3.14 * r * r;
-        }
-};
-
-int main()
-{
-    PersegiPanjang objekPP; // membuat objek
-    Lingkaran ol;
-
-    cout << "Masukkan Panjang : ";
-    cin >> objekPP.panjang;
     cout << "Masukkan Lebar : ";
     cin >> objekPP.lebar;
     cout << "Luas Persegi Panjang : " <<
